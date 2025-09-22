@@ -3,6 +3,7 @@
 -Configuared Tailwindcss
 -Header
 -Loging Form
+-Sign Up Form
 
 # features
 -Login/Sign Up Form
