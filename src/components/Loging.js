@@ -43,20 +43,20 @@ const Loging = () => {
             ref={name}
             type="text"
             placeholder="Full Name"
-            className="p-4 my-4 w-full bg-gray-600"
+            className="p-4 my-4 w-full bg-transparent border-2 border-gray-500 rounded-md text-white focus:outline-none focus:ring-1 focus:ring-white"
           />
         )}
         <input
           ref={email}
           type="text"
           placeholder="Email or mobile number"
-          className="p-4 my-4 w-full bg-gray-600"
+          className="p-4 my-4 w-full bg-transparent border-2 border-gray-500 rounded-md text-white focus:outline-none focus:ring-1 focus:ring-white"
         />
         <input
           ref={password}
           type="password"
           placeholder="Password"
-          className="p-4 my-4 w-full bg-gray-600"
+          className="p-4 my-4 w-full bg-transparent border-2 border-gray-500 rounded-md text-white focus:outline-none focus:ring-1 focus:ring-white"
         />
         <p className="text-red-500 text-lg py-4">{errorMessage}</p>
         <button
